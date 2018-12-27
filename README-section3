@@ -1,4 +1,0 @@
-show databases;
-
-create database my_db;
-

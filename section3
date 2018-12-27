@@ -1,0 +1,20 @@
+show databases;
+
+create database my_db;
+
+drop database my_db;
+
+use my_db;
+
+select database();
+  shows in use database
+  
+create table my_table
+(
+  column_name datatype,
+  column_name datatype
+)
+
+desc my_table;  
+
+drop table my_table;

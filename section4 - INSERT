@@ -1,0 +1,29 @@
+insert into cats(name, age)
+values('blue', 1);
+
+INSERT INTO table_name 
+            (column_name, column_name) 
+VALUES      (value, value), 
+            (value, value), 
+            (value, value);
+            
+NULL 
+NOT NULL
+
+DEFAULT VALUES
+CREATE TABLE cats3
+  (
+    name VARCHAR(20) DEFAULT 'no name provided',
+    age INT DEFAULT 99
+  );
+  
+Primary Keys
+CREATE TABLE unique_cats
+  (
+    cat_id INT NOT NULL,
+    name VARCHAR(100),
+    age INT,
+    PRIMARY KEY (cat_id)
+  );
+  
+  
